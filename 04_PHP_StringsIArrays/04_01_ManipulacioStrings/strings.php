@@ -52,7 +52,7 @@ echo "<h3>6. Extreure subcadenes (substr):</h3>";
 $codi = "PROD-12345-CAT";
 echo "Codi: " . $codi . "<br>";
 echo "substr(5, 5): " . substr($codi, 5, 5) . "<br>";
-echo "substr(-3): " . substr($codi, -3) . "<br>";
+echo "substr(-2): " . substr($codi, -3) . "<br>";
 
 // 7. Dividir strings
 echo "<h3>7. Dividir strings (explode):</h3>";
